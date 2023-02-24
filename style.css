@@ -1,11 +1,13 @@
-ul{
-
+ul {
 }
-h1{
+.banniere {
+  background-image: url("background.jpg");
+}
+h1 {
   color: #920a30;
   text-align: center;
 }
-body{
-  background-color: #926C0A;
-  color: #92280A;
+body {
+  background-color: #926c0a;
+  color: #92280a;
 }
