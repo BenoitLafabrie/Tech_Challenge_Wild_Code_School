@@ -1,7 +1,13 @@
-ul {
-}
 .banniere {
-  background-image: url("background.jpg");
+  background: url("background.jpg") cover center;
+}
+.family {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+li {
+  text-align: center justify;
 }
 h1 {
   color: #920a30;
@@ -10,4 +16,37 @@ h1 {
 body {
   background-color: #926c0a;
   color: #92280a;
+}
+
+/* mise en forme tableau*/
+table {
+  table-layout: fixed;
+  margin: auto;
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  border: 3px solid #74920a;
+}
+thead th:nth-child(1) {
+  width: 20%;
+}
+thead th:nth-child(2) {
+  width: 15%;
+}
+thead th:nth-child(3) {
+  width: 30%;
+}
+th,
+td {
+  border: 3px solid #74920a;
+  padding: 20px;
+}
+/*mise en forme texte tableau*/
+tbody td {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
 }
